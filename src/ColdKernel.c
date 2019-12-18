@@ -1,3 +1,8 @@
+/*
+	Copyright (c) 2019 Rat431 (https://github.com/Rat431).
+	This software is under the MIT license, for more informations check the LICENSE file.
+*/
+
 #include <ntdef.h>
 #include <ntifs.h>
 #include <ntdef.h>
