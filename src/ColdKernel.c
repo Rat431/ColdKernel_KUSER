@@ -229,7 +229,7 @@ NTSTATUS DriverReadConfing(struct KuserDataStruct* Configuration)
 				status = ZwReadFile(hFile, NULL, NULL, NULL, &statusblock,
 					Configuration, (sizeof(struct KuserDataStruct) * KUSER_SIZE_DWORD), &byteOffset, NULL);
 				if (NT_SUCCESS(status)) {
-					DbgPrint("Configuration has been readed!\n");
+					DbgPrint("Configuration has been read!\n");
 				}
 			}
 			else
